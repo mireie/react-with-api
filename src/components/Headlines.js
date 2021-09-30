@@ -3,10 +3,6 @@ import { connect } from 'react-redux'
 import { makeApiCall } from '../actions'
 
 class Headlines extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
 
   componentDidMount() {
     const { dispatch } = this.props
